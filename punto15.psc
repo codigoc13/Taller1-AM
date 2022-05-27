@@ -1,11 +1,19 @@
 Algoritmo punto15
-	definir edad Como Entero
-	Definir  Promedio Como Real
+	definir edad,i Como Entero
+	Definir  Promedio, Acum,nota Como Real
 	
 	Mostrar "Ingrese su Edad"
 	Leer edad
-	Mostrar "Ingrese su promedio"
-	leer Promedio
+	Acum=0
+	
+	para i=1 hasta 3 Con Paso 1 Hacer
+		nota=0
+		Mostrar "Ingrese su nota", i
+		Leer nota
+		Acum=Acum+nota
+	FinPara
+	Promedio=acum/3
+	
 	si edad >18 y Promedio>= 9 Entonces
 		Mostrar "Su Beca es de 200.000"
 	SiNo
