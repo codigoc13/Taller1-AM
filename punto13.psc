@@ -2,12 +2,12 @@ Algoritmo punto13
 	
 	//Escribir un programa que al ingresar un valor del 1 al 7 imprima el día de la
 	//semana al que corresponde.
-	Definir dias Como Entero
+	Definir numeroDias Como Entero
 	
 	Escribir "Ingresa un número del 1 al 7"
-	Leer numDias
+	Leer numeroDias
 	
-	Segun numDias Hacer
+	Segun numeroDias Hacer
 		1:
 			Mostrar "Lunes"
 		2:
